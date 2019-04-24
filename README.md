@@ -32,7 +32,7 @@ The terminal will appear below the code panel.
 > The change is documented on Git, but not added to the repository (project). If someone pulls the repo,
 > your changes will not be reflected.
 >
-> A `push` will copy all of your local changes to GitHub. If someone pulls the repo, your changes will be there.
+> A `push` will copy all of your (committed) local changes to GitHub. If someone pulls the repo, your changes will be there.
 
 ## Pushing live to FTP
 
