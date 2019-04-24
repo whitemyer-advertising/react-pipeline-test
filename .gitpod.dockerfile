@@ -53,4 +53,4 @@ RUN notOwnedFile=$(find . -not "(" -user gitpod -and -group gitpod ")" -print -q
     && { [ -z "$notOwnedFile" ] \
         || { echo "Error: not all files/dirs in $HOME are owned by 'gitpod' user & group"; exit 1; } }
 
-RUN bash -c "cd workspace/react-pipeline-test && npm install"
+RUN npm install
