@@ -1,68 +1,50 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Initialising
+Run these commands in the terminal.
+To run terminal commands, select `Terminal` from the top menu, and click `New Terminal`.
+The terminal will appear below the code panel.
 
-## Available Scripts
 
-In the project directory, you can run:
+### `npm install`
+* Installs the required dependencies and scripts.
 
 ### `npm start`
+* Starts the development server for previewing changes.
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Commiting to Git
+(Note: you MUST commit and push to Git before you can push to FTP.)
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+* In the terminal: `npm run build`. This will build the app for production.
+* Click the Git icon. The icon is the one that looks like a two-pronged fork on the left-most button panel.
+* Verify that your changed files are listed under `CHANGES`
+* Click the `+` icon on the `CHANGES` line to add the files for commit.
+* Add a Commit message in the field.
+* Click `Commit` under the Commit message field.
 
-### `npm test`
+## Pushing to Git
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* In the terminal:
+* `git add *`
+* `git push`
 
-### `npm run build`
+> ### Tip: What's the difference between a commit and push?
+>
+> A `commit` is a representation of a change that was made. In some cases it makes sense to make multiple commits before pushing.
+> The change is documented on Git, but not added to the repository (project). If someone pulls the repo,
+> your changes will not be reflected.
+>
+> A `push` will copy all of your local changes to GitHub. If someone pulls the repo, your changes will be there.
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Pushing live to FTP
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+* In the terminal:
+* `git config git-ftp.url "ftp://ftp.whitemyer.com/clients/whitemyersites/whitemyer/docs/sandbox/react-pipeline-coaching"`
+* `git config git-ftp.user "YOUR_FTP_USERNAME"`
+* `git config git-ftp.password "YOUR_FTP_PASSWORD"`
+* `git ftp push --syncroot build`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+> ### Tip: I get a "Dirty repository" error
+>
+> You have Git changes that are not reflected on GitHub. Commit and Push to Github.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## Done!
+The project with your changes are now documented, backed up by Git in the cloud, and live online.
