@@ -12,7 +12,7 @@ The terminal will appear below the code panel.
 ### `npm start`
 * Starts the development server for previewing changes.
 
-## Commiting to Git
+## Commiting to GitHub
 (Note: you MUST commit and push to Git before you can push to FTP.)
 
 * In the terminal: `npm run build`. This will build the app for production.
@@ -28,7 +28,7 @@ The terminal will appear below the code panel.
 > because it wasn't built from the source. React apps can't be deployed as-is - they MUST
 > be built/compiled.
 
-## Pushing to Git
+## Pushing to GitHub
 
 * In the terminal:
 * `git add *`
