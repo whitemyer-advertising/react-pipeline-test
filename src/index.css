@@ -6,9 +6,36 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(80, 122, 189);
+  color: white;
+  font-family: "Trebuchet MS";
+  font-size: "34px";
+}
+
+@keyframes text-bounce {
+  0% {
+    transform: translateY(0px);
+    text-shadow: 0px 8px 10px #333;
+  }
+  50% {
+    transform: translateY(6px);
+    text-shadow: 0px 2px 2px #333;
+  }
+  100% {
+    transform: translateY(0px);
+    text-shadow: 0px 8px 10px #333;
+  }
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+p {
+  margin: 0 auto;
+  position: relative;
+  top: 50vh;
+  font-size: 34px;
+  animation: text-bounce 2s ease-in-out infinite;
 }
