@@ -6,6 +6,7 @@ function App() {
   return (
     <div className="App">
       <p>React Pipelines</p>
+      <small>Testing development and deployment</small>
     </div>
   );
 }

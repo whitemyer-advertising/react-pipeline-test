@@ -52,3 +52,8 @@ p {
   font-size: 34px;
   animation: text-bounce 2s ease-in-out infinite;
 }
+
+small {
+    position: relative;
+    top: 50vh;
+}

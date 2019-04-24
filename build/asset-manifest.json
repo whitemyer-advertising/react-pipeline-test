@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/react-pipeline-coaching/static/css/main.3ab2cb51.chunk.css",
-    "main.js": "/react-pipeline-coaching/static/js/main.dff2a9d0.chunk.js",
-    "main.js.map": "/react-pipeline-coaching/static/js/main.dff2a9d0.chunk.js.map",
+    "main.css": "/react-pipeline-coaching/static/css/main.4d06bd5b.chunk.css",
+    "main.js": "/react-pipeline-coaching/static/js/main.aed5ff45.chunk.js",
+    "main.js.map": "/react-pipeline-coaching/static/js/main.aed5ff45.chunk.js.map",
     "runtime~main.js": "/react-pipeline-coaching/static/js/runtime~main.e887e9a7.js",
     "runtime~main.js.map": "/react-pipeline-coaching/static/js/runtime~main.e887e9a7.js.map",
     "static/js/2.3310f33a.chunk.js": "/react-pipeline-coaching/static/js/2.3310f33a.chunk.js",
     "static/js/2.3310f33a.chunk.js.map": "/react-pipeline-coaching/static/js/2.3310f33a.chunk.js.map",
     "index.html": "/react-pipeline-coaching/index.html",
-    "precache-manifest.825b15f377d4cfc99c5c4751a4cd0390.js": "/react-pipeline-coaching/precache-manifest.825b15f377d4cfc99c5c4751a4cd0390.js",
+    "precache-manifest.2d8bf50776bdee5877ca132d83e0b671.js": "/react-pipeline-coaching/precache-manifest.2d8bf50776bdee5877ca132d83e0b671.js",
     "service-worker.js": "/react-pipeline-coaching/service-worker.js",
-    "static/css/main.3ab2cb51.chunk.css.map": "/react-pipeline-coaching/static/css/main.3ab2cb51.chunk.css.map",
+    "static/css/main.4d06bd5b.chunk.css.map": "/react-pipeline-coaching/static/css/main.4d06bd5b.chunk.css.map",
     "static/media/logo.svg": "/react-pipeline-coaching/static/media/logo.5d5d9eef.svg"
   }
 }
