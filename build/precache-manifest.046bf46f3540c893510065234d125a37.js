@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1e0ab13cc224f3a6bb94074e49e48dc5",
+    "revision": "bbb464f7a97df3345aac71b4de734f24",
     "url": "/react-pipeline-coaching/index.html"
   },
   {
-    "revision": "3563daebe35054b02d0e",
-    "url": "/react-pipeline-coaching/static/css/main.f04d68ac.chunk.css"
+    "revision": "8c71670fd2fe99ecb588",
+    "url": "/react-pipeline-coaching/static/css/main.6b0c9760.chunk.css"
   },
   {
     "revision": "2315f74ce3c99316133d",
     "url": "/react-pipeline-coaching/static/js/2.3310f33a.chunk.js"
   },
   {
-    "revision": "3563daebe35054b02d0e",
+    "revision": "8c71670fd2fe99ecb588",
     "url": "/react-pipeline-coaching/static/js/main.aed5ff45.chunk.js"
   },
   {

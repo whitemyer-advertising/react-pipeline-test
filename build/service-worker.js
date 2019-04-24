@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.0/workbox-sw.js");
 
 importScripts(
-  "/react-pipeline-coaching/precache-manifest.1f9af57a259866011d5461e0b56a761c.js"
+  "/react-pipeline-coaching/precache-manifest.046bf46f3540c893510065234d125a37.js"
 );
 
 self.addEventListener('message', (event) => {
