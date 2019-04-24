@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react-pipeline-coaching/static/css/main.3ab2cb51.chunk.css",
+    "main.js": "/react-pipeline-coaching/static/js/main.14d0d1cd.chunk.js",
+    "main.js.map": "/react-pipeline-coaching/static/js/main.14d0d1cd.chunk.js.map",
+    "runtime~main.js": "/react-pipeline-coaching/static/js/runtime~main.e887e9a7.js",
+    "runtime~main.js.map": "/react-pipeline-coaching/static/js/runtime~main.e887e9a7.js.map",
+    "static/js/2.3310f33a.chunk.js": "/react-pipeline-coaching/static/js/2.3310f33a.chunk.js",
+    "static/js/2.3310f33a.chunk.js.map": "/react-pipeline-coaching/static/js/2.3310f33a.chunk.js.map",
+    "index.html": "/react-pipeline-coaching/index.html",
+    "precache-manifest.3637c6561f46b7a7d46811d6dc825d62.js": "/react-pipeline-coaching/precache-manifest.3637c6561f46b7a7d46811d6dc825d62.js",
+    "service-worker.js": "/react-pipeline-coaching/service-worker.js",
+    "static/css/main.3ab2cb51.chunk.css.map": "/react-pipeline-coaching/static/css/main.3ab2cb51.chunk.css.map",
+    "static/media/logo.svg": "/react-pipeline-coaching/static/media/logo.5d5d9eef.svg"
+  }
+}
