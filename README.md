@@ -20,6 +20,12 @@ The terminal will appear below the code panel.
 * Add a Commit message in the field.
 * Click `Commit` under the Commit message field.
 
+> ### Tip: Make sure you run `npm run build` before each commit!
+>
+> If you don't, the source code will have your changes, but the live site will not change
+> because it wasn't built from the source. React apps can't be deployed as-is - they MUST
+> be built/compiled.
+
 ## Pushing to Git
 
 * In the terminal:
@@ -41,6 +47,11 @@ The terminal will appear below the code panel.
 * `git config git-ftp.user "YOUR_FTP_USERNAME"`
 * `git config git-ftp.password "YOUR_FTP_PASSWORD"`
 * `git ftp push --syncroot build`
+
+> ### Tip: That's a lot of commands!
+>
+> You only have to run the `git config` commands once per session. However, make sure you
+> build, commit, and push before running `git ftp-push`.
 
 > ### Tip: I get a "Dirty repository" error
 >
